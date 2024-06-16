@@ -1,0 +1,25 @@
+.grid {  
+    position: relative;
+    width: 10px;
+    height:330px;
+    background-color: blue;
+    box-shadow: 110px 0px 0 0px blue;
+    margin: 5px;
+}
+
+.gird::before, .grid::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 330px;
+    height: 10px;
+    background-color: blue;
+    transform-origin: center;
+}
+
+.grid::after {
+    transform: translate(-115px,100px);
+    box-shadow: 0px 100px 0 0px blue;
+    margin: 5px;
+}
