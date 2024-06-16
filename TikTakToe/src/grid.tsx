@@ -4,7 +4,9 @@ function Grid() {
 
   return (
     <>
-        <div className="grid"></div>
+        <div className="grid">
+          <button className="temp1"></button>
+        </div>
     </>
   )
 }
