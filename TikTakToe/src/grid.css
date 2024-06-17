@@ -6,7 +6,7 @@
     width: 1em;
     height:40em;
     background-color: blue;
-    box-shadow: 13.5em 0em 0 0em blue;
+    box-shadow: 13.33em 0em 0 0em blue;
     margin: 0 auto;
 }
 
@@ -23,6 +23,6 @@
 
 .grid::after {
     transform: translate(-18.25em , 8em);
-    box-shadow: 0em 13em 0 0em blue;
+    box-shadow: 0em 13.33em 0 0em blue;
     margin: 5em;
 }
