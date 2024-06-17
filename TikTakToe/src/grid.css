@@ -2,11 +2,11 @@
     position: absolute;
     left: 50%;
     bottom: 50%;
-    transform: translate(-6.75em, 20em);
+    transform: translate(-6.665em, 20em);
     width: 1em;
     height:40em;
     background-color: blue;
-    box-shadow: 13.5em 0em 0 0em blue;
+    box-shadow: 13.33em 0em 0 0em blue;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .grid::after {
-    transform: translate(-18.25em , 8em);
-    box-shadow: 0em 13em 0 0em blue;
+    transform: translate(-18.25em , 6.665em);
+    box-shadow: 0em 13.33em 0 0em blue;
     margin: 5em;
 }
