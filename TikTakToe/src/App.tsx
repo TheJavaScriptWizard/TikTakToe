@@ -7,8 +7,6 @@ function App() {
 
   return (
     <>
-      <Xs/>
-      <Os/>
       <Grid/>
     </>
   )
