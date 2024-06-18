@@ -1,8 +1,14 @@
-.grid {  
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-6.665em, 20em);
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    position: relative;  
+    transform: translate(-6.665em, 0em);
     width: 1em;
     height:40em;
     background-color: blue;
@@ -22,7 +28,7 @@
 }
 
 .grid::after {
-    transform: translate(-18.25em , 6.665em);
+    transform: translate(-18.25em , 7.665em);
     box-shadow: 0em 13.33em 0 0em blue;
     margin: 5em;
 }
