@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Grid/>
-      <Buttons/>
+      <Buttons Top="50%" Left="50%"/>
     </>
   )
 }
