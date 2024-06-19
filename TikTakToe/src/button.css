@@ -1,8 +1,8 @@
 .theButton {
     position: absolute;
     transform: translate(-50%,-50%);
-    width: 4em;
-    height: 4em;
+    width: 12.5em;
+    height: 12.5em;
     background-color: black;
     border: 10px solid black;
     border-radius: 50%;

@@ -20,7 +20,6 @@ function Buttons({ Top, Left }: Props) {
     <>
       <button 
       className="theButton"
-      onClick={() => handleClick('70%', '30%')}
       style={{ left: left, top: top }}
       ></button>
     </>

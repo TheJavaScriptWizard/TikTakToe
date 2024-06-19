@@ -8,27 +8,26 @@ html, body {
 
 .grid {
     position: relative;  
-    transform: translate(-6.665em, 0em);
+    transform: translate(-6.75em, 0em);
     width: 1em;
     height:40em;
     background-color: blue;
-    box-shadow: 13.33em 0em 0 0em blue;
+    box-shadow: 13.5em 0em 0 0em blue;
     margin: 0 auto;
 }
 
 .gird::before, .grid::after {
     content: '';
     position: absolute;
-    top: 0;
+    top: 0%;
     left: 50%;
     width: 40em;
     height: 1em;
     background-color: blue;
-    transform-origin: center;
 }
 
 .grid::after {
-    transform: translate(-18.25em , 7.665em);
-    box-shadow: 0em 13.33em 0 0em blue;
+    transform: translate(-18.25em , 7.75em);
+    box-shadow: 0em 13.5em 0 0em blue;
     margin: 5em;
 }
