@@ -1,17 +1,19 @@
-import './App.css'
-import Xs from "./Xs.tsx"
-import Os from "./Os.tsx"
-import Grid from "./grid.tsx"
-import Buttons from './button.tsx'
+export default function Square() {
+    return (
+        <> 
 
-function App() {
+                  <button className="square">X</button>
+                  <button className="square">X</button>
+                  <button className="square">X</button>
 
-  return (
-    <>
-      <Grid/>
-      <Buttons/>
-    </>
-  )
+                  <button className="square">X</button>
+                  <button className="square">X</button>
+                  <button className="square">X</button>
+
+                  <button className="square">X</button>
+                  <button className="square">X</button>
+            <button className="square">X</button>
+                
+        </>
+    )
 }
-
-export default App
